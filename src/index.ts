@@ -115,6 +115,7 @@ function main(argv: string[]) {
 		for (const process of processList) {
 			process.kill();
 		}
+		process.exit(0);
 	});
 
 	// handle EOF = CTRL+D
@@ -124,7 +125,10 @@ function main(argv: string[]) {
 		for (const process of processList) {
 			process.kill();
 		}
+		process.exit(0);
 	});
+
+	
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

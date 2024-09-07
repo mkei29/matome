@@ -2,25 +2,27 @@
 	"name": "matome",
 	"version": "0.0.1",
 	"description": "",
-  "bin": "./dist/index.js",
+	"bin": "dist/index.js",
 	"scripts": {
-		"dev": "ts-node src/index.ts",
+		"dev": "pnpm run build && node dist/index.js",
 		"build": "tsc",
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"lint": "pnpm biome lint --write ./src",
-		"format": "pnpm biome format --write ./src"
+		"format": "pnpm biome format --write ./src",
+		"release": "pnpm run build && pnpm publish"
 	},
 	"type": "module",
 	"engines": {
 		"node": ">=18"
 	},
-	"keywords": [],
+	"keywords": ["cli"],
 	"author": "mkei29",
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@types/node": "^22.5.4",
+		"matome": "^0.0.1",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.5.4",
 		"vitest": "^2.0.5"
