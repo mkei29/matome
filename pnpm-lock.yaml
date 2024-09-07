@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^22.5.4
     version: 22.5.4
   matome:
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: ^0.0.2
+    version: 0.0.2
   ts-node:
     specifier: ^10.9.2
     version: 10.9.2(@types/node@22.5.4)(typescript@5.5.4)
@@ -758,8 +758,8 @@ packages:
     resolution: {integrity: sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==}
     dev: true
 
-  /matome@0.0.1:
-    resolution: {integrity: sha512-+dXN9PICrS7YL8NGaHTCiPRi+PBExkjLZaS/0aP9Ry3YOwjZ0IMh6pxsrSUnB9WplefsLuWYSEPWuL1NXp9lRA==}
+  /matome@0.0.2:
+    resolution: {integrity: sha512-TyKxOvYPdEzVLaaADearxn7FBYV/+w35vMCGEuXiedqiUHupkhE0TwO5rDaJtjRZel2aQAZu0fiVj5g1jq4z7g==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
