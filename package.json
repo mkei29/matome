@@ -18,7 +18,7 @@
 		"node": ">=18"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "mkei29",
 	"license": "ISC",
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
