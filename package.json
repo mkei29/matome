@@ -1,11 +1,11 @@
 {
 	"name": "matome",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"bin": "dist/index.js",
 	"scripts": {
 		"dev": "pnpm run build && node dist/index.js",
-		"build": "tsc ./src/index.ts",
+		"build": "tsc",
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"lint": "pnpm biome lint --write ./src",
