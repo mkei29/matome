@@ -1,5 +1,5 @@
 {
-	"name": "enso",
+	"name": "matome",
 	"version": "0.0.1",
 	"description": "",
   "bin": "./dist/index.js",
@@ -17,7 +17,7 @@
 	},
 	"keywords": [],
 	"author": "mkei29",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@types/node": "^22.5.4",
