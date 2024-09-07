@@ -1,5 +1,5 @@
 import { test, describe, expect } from "vitest";
-import { parseArgs } from "./index";
+import { parseArgs } from "./cli";
 
 describe("parseArgs", () => {
 	test("valid cases", () => {
