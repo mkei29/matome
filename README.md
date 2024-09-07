@@ -1,7 +1,11 @@
 # matome
 Run multiple development servers simultaneously.
 
+![Example](https://github.com/mkei29/matome/raw/main/docs/landing.png)
 ---
+
+![NPM Version](https://img.shields.io/npm/v/matome)
+
 
 Sometimes we need to run multiple dev servers simultaneously, especially when using platforms like Cloudflare or Vercel.
 This can often be a hassle for developers.
