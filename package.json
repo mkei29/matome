@@ -1,8 +1,9 @@
 {
 	"name": "matome",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "",
 	"bin": "dist/index.js",
+	"files": ["dist"],
 	"scripts": {
 		"dev": "pnpm run build && node dist/index.js",
 		"build": "tsc",
@@ -22,7 +23,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@types/node": "^22.5.4",
-		"matome": "^0.0.2",
+		"matome": "^0.0.3",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.5.4",
 		"vitest": "^2.0.5"
