@@ -8,7 +8,7 @@ export function parseArgs(argv: string[]): Args {
 	let current: string[] = [];
 
 	if (argv.at(-1) === "--") {
-		throw new Error("Invalid command: The command cannot be end with '--'.");
+		throw new Error("Invalid Argument: The command cannot be end with '--'.");
 	}
 
 	for (const arg of argv) {
@@ -24,8 +24,12 @@ export function parseArgs(argv: string[]): Args {
 	// Check if there is an empty command
 	if (commands.slice(1).some((cmd) => cmd.length === 0)) {
 		throw new Error(
-			"Invalid command: The command cannot be empty. Verify that '--' is not repeated consecutively.",
+			"Invalid Argument: The command cannot be empty. Verify that '--' is not repeated consecutively.",
 		);
+	}
+
+	if (commands.length < 2) {
+		throw new Error("Invalid Argument: You must provide at least one command.");
 	}
 
 	return {
