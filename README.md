@@ -3,7 +3,7 @@
 Run multiple development servers simultaneously.
 
 ![NPM Version](https://img.shields.io/npm/v/matome)
-![Example](https://github.com/mkei29/matome/raw/main/docs/landing.png){: width="100%"}
+<img src="https://github.com/mkei29/matome/raw/main/docs/landing.png" width="100%" alt="Example">
 ---
 
 
