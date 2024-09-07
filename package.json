@@ -1,10 +1,8 @@
 {
 	"name": "enso",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "",
-	"exports": {
-		".": "./dist/index.js"
-	},
+  "bin": "./dist/index.js",
 	"scripts": {
 		"dev": "ts-node src/index.ts",
 		"build": "tsc",
