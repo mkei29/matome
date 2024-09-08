@@ -43,7 +43,7 @@ pnpm add --save-dev matome
 To run multiple commands, simply concatenate them with a hyphen:
 
 ```bash
-matome -- echo "Hello" -- echo "Goodbye"
+npx matome -- echo "Hello" -- echo "Goodbye"
 ```
 
 ## What does `matome` mean?
