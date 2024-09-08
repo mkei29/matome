@@ -1,6 +1,6 @@
 {
 	"name": "matome",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "",
 	"bin": "dist/index.js",
 	"files": [
@@ -20,7 +20,9 @@
 		"node": ">=18"
 	},
 	"keywords": [
-		"cli"
+		"cli",
+		"util",
+		"dev"
 	],
 	"author": "mkei29",
 	"license": "MIT",

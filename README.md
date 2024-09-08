@@ -6,6 +6,8 @@ Run multiple development servers simultaneously.
 <img src="https://github.com/mkei29/matome/raw/main/docs/landing.png" width="100%" alt="Example">
 ---
 
+* [NPM](https://www.npmjs.com/package/matome)
+* [GitHub](https://github.com/mkei29/matome)
 
 
 Sometimes we need to run multiple dev servers simultaneously, especially when using platforms like Cloudflare or Vercel.
