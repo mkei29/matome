@@ -49,7 +49,27 @@ export class Process {
 			);
 		});
 
+		process.stderr.on("data", (data: unknown) => {
+			if (Buffer.isBuffer(data)) {
+				this.writeLog(data.toString());
+				return;
+			}
+			writeSystemLog(
+				`Runtime Error: Unknown object is passed from the process '${this.tag}'`,
+			);
+		});
+
 		process.stdout.on("close", (data: unknown) => {
+			if (Buffer.isBuffer(data)) {
+				this.writeLog(data.toString());
+				return;
+			}
+			writeSystemLog(
+				`Runtime Error: Unknown object is passed from the process '${this.tag}'`,
+			);
+		});
+
+		process.stderr.on("close", (data: unknown) => {
 			if (Buffer.isBuffer(data)) {
 				this.writeLog(data.toString());
 				return;
