@@ -13,7 +13,7 @@
 		"test:watch": "vitest",
 		"lint": "pnpm biome lint --write ./src",
 		"format": "pnpm biome format --write ./src",
-		"release": "pnpm run build && pnpm publish"
+		"release": "pnpm run build && pnpm exec release-it"
 	},
 	"type": "module",
 	"engines": {
@@ -30,6 +30,7 @@
 		"@biomejs/biome": "1.8.3",
 		"@types/node": "^22.5.4",
 		"matome": "^0.1.0",
+		"release-it": "^17.6.0",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.5.4",
 		"vitest": "^2.0.5"
