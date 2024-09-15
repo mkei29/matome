@@ -1,6 +1,6 @@
 {
 	"name": "matome",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "",
 	"bin": "dist/index.js",
 	"files": [
